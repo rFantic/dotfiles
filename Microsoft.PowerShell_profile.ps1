@@ -1,0 +1,14 @@
+Set-PSReadlineKeyHandler -Key Tab -Function MenuComplete
+Set-PSReadLineOption -PredictionViewStyle ListView
+Set-PSReadLineOption -PredictionSource History
+function cdf {cd -L (split-path -parent $(fzf))}
+function nvf {nvim $(fzf)}
+function codef {code (split-path -parent $(fzf))}
+function clipf {echo -n $pwd"\"$(fzf) | clip}
+function lsf {ls | Format-Wide -Column 4}
+function renplv {curl -X POST -d '{}' https://api.netlify.com/build_hooks/652d0cf2603f7a2d000d1c00} 
+Set-Alias -n lg -v lazygit
+Set-Alias -n mm -v micromamba
+$Env:MAMBA_ROOT_PREFIX='C:\Users\ADMIN\micromambaenv'
+try {micromamba.exe shell hook -q -s powershell | out-string | invoke-expression 2>$null} catch {}
+Invoke-Expression (&starship init powershell)

@@ -1,0 +1,19 @@
+version tiny
+set cursor_accel=10000
+set cursor_resolution=2000
+imap <ctrl-alt-q> <to_gui_normal>
+gnnoremap <ctrl-alt-q> <to_insert>
+gnnoremap : <to_command>
+gnnoremap u <click_left>
+gnnoremap i <click_right>
+gnnoremap o <easyclick_all>
+gnnoremap <c-u> <scroll_up_halfpage>
+gnnoremap <c-d> <scroll_down_halfpage>
+gnnoremap h <move_cursor_left>
+gnnoremap l <move_cursor_right>
+gnnoremap k <move_cursor_up>
+gnnoremap j <move_cursor_down>
+gnnoremap m <gridmove>
+set gridmove_size=25x20
+command so <source>
+command exit <exit>
