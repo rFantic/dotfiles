@@ -7,6 +7,7 @@
 
 alias ls='ls --color=auto -X --group-directories-first'
 alias mm='micromamba'
+alias cdf='cd $(fd -L -t d | fzf)'
 PS1='[\u@\h \W]\$ '
 
 # >>> mamba initialize >>>
