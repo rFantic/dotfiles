@@ -10,5 +10,4 @@ nnoremap <leader>bd <cmd>bd! <cr>
 nnoremap <leader>rc <cmd>browse oldfiles <cr>
 nnoremap <leader>tm <cmd>term <cr>
 nnoremap <leader>id <cmd>put=strftime('%c') <cr>
-nnoremap <leader>ca <cmd>lua vim.lsp.buf.code_action()<CR>
 ]])
