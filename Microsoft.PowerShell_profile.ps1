@@ -1,9 +1,7 @@
 Set-PSReadlineKeyHandler -Key Tab -Function MenuComplete
 Set-PSReadLineOption -PredictionViewStyle ListView
 Set-PSReadLineOption -PredictionSource History
-function cdf {cd -L (split-path -parent $(fzf))}
-function nvf {nvim $(fzf)}
-function codef {code (split-path -parent $(fzf))}
+function cdf {cd $(fd -L -t d | fzf)}
 function clipf {echo -n $pwd"\"$(fzf) | clip}
 function lsf {ls | Format-Wide -Column 4}
 function renplv {curl -X POST -d '{}' https://api.netlify.com/build_hooks/652d0cf2603f7a2d000d1c00} 
