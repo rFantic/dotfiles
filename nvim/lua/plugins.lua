@@ -12,16 +12,19 @@ end
 vim.opt.rtp:prepend(lazypath)
 
 require("lazy").setup({
-    { 'echasnovski/mini.nvim', version = false },
-    { 'nvim-telescope/telescope.nvim', tag = '0.1.4', dependencies = { 'nvim-lua/plenary.nvim' } },
+    { 'williamboman/mason.nvim' },
+    { 'mfussenegger/nvim-dap' },
+    { 'jay-babu/mason-nvim-dap.nvim' },
+    { 'echasnovski/mini.nvim',            version = false },
+    { 'nvim-telescope/telescope.nvim',    tag = '0.1.4',  dependencies = { 'nvim-lua/plenary.nvim' } },
     { 'tpope/vim-sensible' },
-    { "williamboman/mason.nvim" } ,
-    { "williamboman/mason-lspconfig.nvim" } ,
-    {'VonHeikemen/lsp-zero.nvim', branch = 'v3.x'},
-    {'neovim/nvim-lspconfig'},
-    {'hrsh7th/cmp-nvim-lsp'},
-    {'hrsh7th/nvim-cmp'},
-    {'L3MON4D3/LuaSnip'},
+    { 'williamboman/mason.nvim' },
+    { 'williamboman/mason-lspconfig.nvim' },
+    { 'VonHeikemen/lsp-zero.nvim',        branch = 'v3.x' },
+    { 'neovim/nvim-lspconfig' },
+    { 'hrsh7th/cmp-nvim-lsp' },
+    { 'hrsh7th/nvim-cmp' },
+    { 'L3MON4D3/LuaSnip' },
     {
         'glacambre/firenvim',
         lazy = not vim.g.started_by_firenvim,
@@ -33,14 +36,14 @@ require("lazy").setup({
 
 local lsp_zero = require('lsp-zero')
 lsp_zero.on_attach(function(client, bufnr)
-    lsp_zero.default_keymaps({buffer = bufnr})
+    lsp_zero.default_keymaps({ buffer = bufnr })
 end)
 local cmp = require('cmp')
 local cmp_action = require('lsp-zero').cmp_action()
 cmp.setup({
     mapping = cmp.mapping.preset.insert({
         -- `Enter` key to confirm completion
-        ['<CR>'] = cmp.mapping.confirm({select = false}),
+        ['<CR>'] = cmp.mapping.confirm({ select = false }),
         -- Ctrl+Space to trigger completion menu
         ['<C-Space>'] = cmp.mapping.complete(),
         -- Navigate between snippet placeholder
@@ -51,13 +54,13 @@ cmp.setup({
         ['<C-d>'] = cmp.mapping.scroll_docs(4),
     })
 })
-
 require('mini.surround').setup()
 require('mini.pairs').setup()
 require('mini.jump').setup()
 require('mason').setup({})
+require("mason-nvim-dap").setup()
 require('mason-lspconfig').setup({
-    ensure_installed = {"pyright", "lua_ls"},
+    ensure_installed = { "pyright", "lua_ls" },
     handlers = {
         lsp_zero.default_setup,
     },
