@@ -9,5 +9,6 @@ nnoremap <leader>w <cmd>w <cr>
 nnoremap <leader>bd <cmd>bd! <cr>
 nnoremap <leader>rc <cmd>browse oldfiles <cr>
 nnoremap <leader>tm <cmd>term <cr>
+nnoremap <leader>ts <cmd>tab split <cr>
 nnoremap <leader>id <cmd>put=strftime('%Y/%m/%d, %H:%M:%S') <cr>
 ]])
