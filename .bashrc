@@ -12,13 +12,17 @@ PS1='[\u@\h \W]\$ '
 
 # >>> mamba initialize >>>
 # !! Contents within this block are managed by 'mamba init' !!
-export MAMBA_EXE='/usr/bin/micromamba';
-export MAMBA_ROOT_PREFIX='/home/near/micromamba';
+export MAMBA_EXE='/home/nghia/.local/bin/micromamba';
+export MAMBA_ROOT_PREFIX='/home/nghia/micromamba';
 __mamba_setup="$("$MAMBA_EXE" shell hook --shell bash --root-prefix "$MAMBA_ROOT_PREFIX" 2> /dev/null)"
 if [ $? -eq 0 ]; then
     eval "$__mamba_setup"
 else
     alias micromamba="$MAMBA_EXE"  # Fallback on help from mamba activate
 fi
+alias conda=micromamba
+conda activate base
 unset __mamba_setup
 # <<< mamba initialize <<<
+
+eval "$(starship init bash)"
