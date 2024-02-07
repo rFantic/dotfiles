@@ -32,3 +32,5 @@
 		git commit -F $TMPFILE; \
 		rm -f $TMPFILE \
 		"
+[fetch]
+	prune = true
