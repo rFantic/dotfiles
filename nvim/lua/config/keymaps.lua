@@ -11,4 +11,6 @@ nnoremap <leader>rc <cmd>browse oldfiles <cr>
 nnoremap <leader>tm <cmd>term <cr>
 nnoremap <leader>ts <cmd>tab split <cr>
 nnoremap <leader>id <cmd>put!=strftime('%Y/%m/%d, %H:%M:%S') <cr>
+nnoremap <leader>gp <cmd>!git pull --rebase <cr>
+nnoremap <leader>gc :exec "!git commit -am \"" @+ <cr> :!git push <cr>
 ]])
