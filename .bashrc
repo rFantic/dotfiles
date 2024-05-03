@@ -10,19 +10,21 @@ alias mm='micromamba'
 alias cdf='cd $(fd -L -t d | fzf)'
 PS1='[\u@\h \W]\$ '
 
-# >>> mamba initialize >>>
-# !! Contents within this block are managed by 'mamba init' !!
-export MAMBA_EXE='/home/nghia/.local/bin/micromamba';
-export MAMBA_ROOT_PREFIX='/home/nghia/micromamba';
-__mamba_setup="$("$MAMBA_EXE" shell hook --shell bash --root-prefix "$MAMBA_ROOT_PREFIX" 2> /dev/null)"
+# >>> conda initialize >>>
+# !! Contents within this block are managed by 'conda init' !!
+__conda_setup="$('/home/nghia/miniconda3/bin/conda' 'shell.bash' 'hook' 2> /dev/null)"
 if [ $? -eq 0 ]; then
-    eval "$__mamba_setup"
+    eval "$__conda_setup"
 else
-    alias micromamba="$MAMBA_EXE"  # Fallback on help from mamba activate
+    if [ -f "/home/nghia/miniconda3/etc/profile.d/conda.sh" ]; then
+        . "/home/nghia/miniconda3/etc/profile.d/conda.sh"
+    else
+        export PATH="/home/nghia/miniconda3/bin:$PATH"
+    fi
 fi
-alias conda=micromamba
-conda activate base
-unset __mamba_setup
-# <<< mamba initialize <<<
+unset __conda_setup
+# <<< conda initialize <<<
 
 eval "$(starship init bash)"
+#nvm use latest
+. "$HOME/.cargo/env"

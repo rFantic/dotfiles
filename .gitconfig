@@ -1,6 +1,6 @@
 [filter "lfs"]
-	smudge = git-lfs smudge --skip -- %f
-	process = git-lfs filter-process --skip
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
 	required = true
 	clean = git-lfs clean -- %f
 [user]
@@ -34,3 +34,5 @@
 		"
 [fetch]
 	prune = true
+[push]
+	autoSetupRemote = true
