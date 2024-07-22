@@ -1,5 +1,6 @@
 #!/bin/bash
-ln  ~/dotfiles/nvim/ ~/.config/nvim
-ln  ~/dotfiles/.bashrc ~/.bashrc
-ln  ~/dotfiles/.tmux.conf ~/.tmux.conf
-ln  ~/dotfiles/.gitconfig ~/.gitconfig
+ln -sf ~/dotfiles/nvim/ ~/.config/nvim
+ln -sf ~/dotfiles/.bashrc ~/.bashrc
+ln -sf ~/dotfiles/.tmux.conf ~/.tmux.conf
+ln -sf ~/dotfiles/.gitconfig ~/.gitconfig
+ln -sf ~/dotfiles/tmux.conf ~/.tmux.conf

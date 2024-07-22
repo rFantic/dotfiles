@@ -1,9 +1,13 @@
+set PATH "$HOME/bin:$PATH"
+set PATH "$HOME/.local/bin:$PATH"
+
 if status is-interactive
     # Commands to run in interactive sessions can go here
 end
 zoxide init fish | source
 starship init fish | source
-nvm use latest --silent
+
+bind -M insert \cf accept-autosuggestion
 
 abbr -a ca conda activate
 abbr -a pi pip install
@@ -31,3 +35,5 @@ else
 end
 # <<< conda initialize <<<
 
+
+thefuck --alias | source
