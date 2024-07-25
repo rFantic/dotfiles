@@ -1,11 +1,13 @@
 set PATH "$HOME/bin:$PATH"
 set PATH "$HOME/.local/bin:$PATH"
+set PATH "$HOME/.cargo/bin:$PATH"
 
 if status is-interactive
     # Commands to run in interactive sessions can go here
 end
 zoxide init fish | source
 starship init fish | source
+#thefuck --alias | source
 
 bind -M insert \cf accept-autosuggestion
 
@@ -34,6 +36,3 @@ else
     end
 end
 # <<< conda initialize <<<
-
-
-thefuck --alias | source
