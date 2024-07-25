@@ -24,13 +24,13 @@ export LD_LIBRARY_PATH="$LD_LIBRARY_PATH:/usr/lib/x86_64_linux-gnu/"
 
 # >>> conda initialize >>>
 # !! Contents within this block are managed by 'conda init' !!
-if test -f /home/nghia/miniconda3/bin/conda
-    eval /home/nghia/miniconda3/bin/conda "shell.fish" "hook" $argv | source
+if test -f $HOME/miniconda3/bin/conda
+    eval $HOME/miniconda3/bin/conda "shell.fish" "hook" $argv | source
 else
-    if test -f "/home/nghia/miniconda3/etc/fish/conf.d/conda.fish"
-        . "/home/nghia/miniconda3/etc/fish/conf.d/conda.fish"
+    if test -f "$HOME/miniconda3/etc/fish/conf.d/conda.fish"
+        . "$HOME/miniconda3/etc/fish/conf.d/conda.fish"
     else
-        set -x PATH "/home/nghia/miniconda3/bin" $PATH
+        set -x PATH "$HOME/miniconda3/bin" $PATH
     end
 end
 # <<< conda initialize <<<
