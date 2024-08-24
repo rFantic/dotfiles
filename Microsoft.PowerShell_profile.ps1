@@ -1,5 +1,4 @@
 clear
-Set-location C:\Home
 Set-PSReadlineKeyHandler -Key Tab -Function MenuComplete
 function cdf {cd $(fd -L -t d | fzf)}
 function clipf {echo -n $pwd"\"$(fzf) | clip}
@@ -9,3 +8,4 @@ Set-Alias -n lg -v lazygit
 Set-Alias -n mm -v micromamba
 $Env:MAMBA_ROOT_PREFIX='C:\condaenv'
 Invoke-Expression (& { (zoxide init powershell | Out-String) })
+Invoke-Expression (&starship init powershell)
