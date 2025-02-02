@@ -1,296 +1,289 @@
 {
+    "apps": [
+        {
+            "Source": "main",
+            "Version": "24.09",
+            "Info": "",
+            "Updated": "2025-01-04T21:17:54.1387238+07:00",
+            "Name": "7zip"
+        },
+        {
+            "Source": "games",
+            "Version": "1.18.10.3141",
+            "Info": "",
+            "Updated": "2024-09-08T22:43:30.9624908+07:00",
+            "Name": "battlenet"
+        },
+        {
+            "Source": "main",
+            "Version": "1.3.25",
+            "Info": "",
+            "Updated": "2025-02-02T17:40:29.9502202+07:00",
+            "Name": "cmder"
+        },
+        {
+            "Source": "main",
+            "Version": "27.5.1",
+            "Info": "",
+            "Updated": "2025-02-01T21:44:19.9124398+07:00",
+            "Name": "docker"
+        },
+        {
+            "Source": "main",
+            "Version": "2.32.4",
+            "Info": "",
+            "Updated": "2025-02-01T21:44:34.0519671+07:00",
+            "Name": "docker-compose"
+        },
+        {
+            "Source": "extras",
+            "Version": "4.134",
+            "Info": "",
+            "Updated": "2024-08-27T04:28:03.7079831+07:00",
+            "Name": "f.lux"
+        },
+        {
+            "Source": null,
+            "Version": "135.0a1.20250103215221",
+            "Info": "",
+            "Updated": "2025-02-01T22:27:51.0013433+07:00",
+            "Name": "firefox-nightly"
+        },
+        {
+            "Source": "main",
+            "Version": "0.58.0",
+            "Info": "",
+            "Updated": "2025-02-01T21:44:36.4276571+07:00",
+            "Name": "fzf"
+        },
+        {
+            "Source": "main",
+            "Version": "2.66.1",
+            "Info": "",
+            "Updated": "2025-02-01T21:44:41.8277174+07:00",
+            "Name": "gh"
+        },
+        {
+            "Source": "main",
+            "Version": "2.47.1.2",
+            "Info": "",
+            "Updated": "2025-02-01T21:45:41.5179216+07:00",
+            "Name": "git"
+        },
+        {
+            "Source": "main",
+            "Version": "3.11",
+            "Info": "",
+            "Updated": "2024-08-29T20:29:57.3139989+07:00",
+            "Name": "grep"
+        },
+        {
+            "Source": "main",
+            "Version": "2.5.1",
+            "Info": "",
+            "Updated": "2024-08-18T19:33:43.7524664+07:00",
+            "Name": "gsudo"
+        },
+        {
+            "Source": "main",
+            "Version": "2.64",
+            "Info": "",
+            "Updated": "2025-02-01T21:45:50.5689407+07:00",
+            "Name": "innounp"
+        },
+        {
+            "Source": "extras",
+            "Version": "4.70",
+            "Info": "",
+            "Updated": "2025-02-01T20:40:45.8776439+07:00",
+            "Name": "irfanview"
+        },
+        {
+            "Source": "extras",
+            "Version": "1.45.2",
+            "Info": "",
+            "Updated": "2025-02-01T21:46:29.5475135+07:00",
+            "Name": "mongodb-compass"
+        },
+        {
+            "Source": "extras",
+            "Version": "2.3.8",
+            "Info": "",
+            "Updated": "2025-02-01T22:58:04.0421356+07:00",
+            "Name": "mongosh"
+        },
+        {
+            "Source": "main",
+            "Version": "0.10.4",
+            "Info": "",
+            "Updated": "2025-02-01T21:46:54.5132437+07:00",
+            "Name": "neovim"
+        },
+        {
+            "Source": "main",
+            "Version": "1.2.2",
+            "Info": "",
+            "Updated": "2025-01-31T15:19:12.0616177+07:00",
+            "Name": "nvm"
+        },
+        {
+            "Source": "extras",
+            "Version": "241211",
+            "Info": "",
+            "Updated": "2025-02-01T20:40:30.606494+07:00",
+            "Name": "potplayer"
+        },
+        {
+            "Source": "main",
+            "Version": "7.5.0",
+            "Info": "",
+            "Updated": "2025-02-01T21:51:25.2401483+07:00",
+            "Name": "pwsh"
+        },
+        {
+            "Source": "extras",
+            "Version": "0.4.29",
+            "Info": "",
+            "Updated": "2025-01-13T22:13:10.4300871+07:00",
+            "Name": "ripcord"
+        },
+        {
+            "Source": "main",
+            "Version": "14.1.1",
+            "Info": "",
+            "Updated": "2025-01-04T21:23:12.5155133+07:00",
+            "Name": "ripgrep"
+        },
+        {
+            "Source": "main",
+            "Version": "1.27.1",
+            "Info": "",
+            "Updated": "2024-08-18T22:59:06.3287196+07:00",
+            "Name": "rustup-msvc"
+        },
+        {
+            "Source": "main",
+            "Version": "1.22.1",
+            "Info": "",
+            "Updated": "2025-02-01T21:46:58.2314356+07:00",
+            "Name": "starship"
+        },
+        {
+            "Source": "versions",
+            "Version": "nightly-20241013",
+            "Info": "",
+            "Updated": "2024-10-13T20:13:59.1560164+07:00",
+            "Name": "steam"
+        },
+        {
+            "Source": "main",
+            "Version": "0.5.26",
+            "Info": "",
+            "Updated": "2025-02-01T21:47:03.8181587+07:00",
+            "Name": "uv"
+        },
+        {
+            "Source": "extras",
+            "Version": "14.42.34433.0",
+            "Info": "",
+            "Updated": "2025-01-04T21:24:05.2999774+07:00",
+            "Name": "vcredist"
+        },
+        {
+            "Source": "extras",
+            "Version": "8.0.50727.6195",
+            "Info": "",
+            "Updated": "2024-08-24T20:41:00.9024534+07:00",
+            "Name": "vcredist2005"
+        },
+        {
+            "Source": "extras",
+            "Version": "9.0.30729.5677",
+            "Info": "",
+            "Updated": "2024-08-24T20:41:04.7831063+07:00",
+            "Name": "vcredist2008"
+        },
+        {
+            "Source": "extras",
+            "Version": "10.0.40219.325",
+            "Info": "",
+            "Updated": "2024-08-24T20:41:17.2722332+07:00",
+            "Name": "vcredist2010"
+        },
+        {
+            "Source": "extras",
+            "Version": "11.0.61030.0",
+            "Info": "",
+            "Updated": "2024-08-24T20:41:21.8121675+07:00",
+            "Name": "vcredist2012"
+        },
+        {
+            "Source": "extras",
+            "Version": "12.0.40664.0",
+            "Info": "",
+            "Updated": "2024-08-24T20:41:29.6455571+07:00",
+            "Name": "vcredist2013"
+        },
+        {
+            "Source": "extras",
+            "Version": "1.5.4",
+            "Info": "",
+            "Updated": "2025-01-13T22:17:49.7950752+07:00",
+            "Name": "vesktop"
+        },
+        {
+            "Source": "extras",
+            "Version": "1.96.4",
+            "Info": "",
+            "Updated": "2025-02-01T21:48:29.3339443+07:00",
+            "Name": "vscode"
+        },
+        {
+            "Source": "extras",
+            "Version": "20240203-110809-5046fc22",
+            "Info": "",
+            "Updated": "2024-08-18T22:32:37.6683031+07:00",
+            "Name": "wezterm"
+        },
+        {
+            "Source": "versions",
+            "Version": "20250201",
+            "Info": "",
+            "Updated": "2025-02-01T21:50:08.9572268+07:00",
+            "Name": "zed-nightly"
+        },
+        {
+            "Source": "main",
+            "Version": "0.9.6",
+            "Info": "",
+            "Updated": "2025-01-04T21:25:18.2334015+07:00",
+            "Name": "zoxide"
+        }
+    ],
     "buckets": [
         {
             "Name": "main",
             "Source": "https://github.com/ScoopInstaller/Main",
-            "Updated": "2025-02-01T19:31:17+07:00",
+            "Updated": "2025-02-02T15:28:51+07:00",
             "Manifests": 1356
         },
         {
             "Name": "extras",
             "Source": "https://github.com/ScoopInstaller/Extras",
-            "Updated": "2025-02-01T21:29:38+07:00",
-            "Manifests": 2122
+            "Updated": "2025-02-02T17:14:17+07:00",
+            "Manifests": 2125
         },
         {
             "Name": "versions",
             "Source": "https://github.com/ScoopInstaller/Versions",
-            "Updated": "2025-02-01T19:50:14+07:00",
+            "Updated": "2025-02-02T15:34:52+07:00",
             "Manifests": 476
         },
         {
             "Name": "games",
             "Source": "https://github.com/Calinou/scoop-games",
-            "Updated": "2025-02-01T19:30:32+07:00",
+            "Updated": "2025-02-02T15:27:54+07:00",
             "Manifests": 338
-        }
-    ],
-    "apps": [
-        {
-            "Version": "24.09",
-            "Name": "7zip",
-            "Source": "main",
-            "Info": "",
-            "Updated": "2025-01-04T21:17:54.1387238+07:00"
-        },
-        {
-            "Version": "1.18.10.3141",
-            "Name": "battlenet",
-            "Source": "games",
-            "Info": "",
-            "Updated": "2024-09-08T22:43:30.9624908+07:00"
-        },
-        {
-            "Version": "27.5.1",
-            "Name": "docker",
-            "Source": "main",
-            "Info": "",
-            "Updated": "2025-02-01T21:44:19.9124398+07:00"
-        },
-        {
-            "Version": "2.32.4",
-            "Name": "docker-compose",
-            "Source": "main",
-            "Info": "",
-            "Updated": "2025-02-01T21:44:34.0519671+07:00"
-        },
-        {
-            "Version": "4.134",
-            "Name": "f.lux",
-            "Source": "extras",
-            "Info": "",
-            "Updated": "2024-08-27T04:28:03.7079831+07:00"
-        },
-        {
-            "Version": "135.0a1.20250103215221",
-            "Name": "firefox-nightly",
-            "Source": null,
-            "Info": "",
-            "Updated": "2025-02-01T18:25:28.2880551+07:00"
-        },
-        {
-            "Version": "0.58.0",
-            "Name": "fzf",
-            "Source": "main",
-            "Info": "",
-            "Updated": "2025-02-01T21:44:36.4276571+07:00"
-        },
-        {
-            "Version": "2.66.1",
-            "Name": "gh",
-            "Source": "main",
-            "Info": "",
-            "Updated": "2025-02-01T21:44:41.8277174+07:00"
-        },
-        {
-            "Version": "2.47.1.2",
-            "Name": "git",
-            "Source": "main",
-            "Info": "",
-            "Updated": "2025-02-01T21:45:41.5179216+07:00"
-        },
-        {
-            "Version": "3.11",
-            "Name": "grep",
-            "Source": "main",
-            "Info": "",
-            "Updated": "2024-08-29T20:29:57.3139989+07:00"
-        },
-        {
-            "Version": "2.5.1",
-            "Name": "gsudo",
-            "Source": "main",
-            "Info": "",
-            "Updated": "2024-08-18T19:33:43.7524664+07:00"
-        },
-        {
-            "Version": "2.64",
-            "Name": "innounp",
-            "Source": "main",
-            "Info": "",
-            "Updated": "2025-02-01T21:45:50.5689407+07:00"
-        },
-        {
-            "Version": "4.70",
-            "Name": "irfanview",
-            "Source": "extras",
-            "Info": "",
-            "Updated": "2025-02-01T20:40:45.8776439+07:00"
-        },
-        {
-            "Version": "24.9.2-0",
-            "Name": "miniconda3",
-            "Source": "extras",
-            "Info": "",
-            "Updated": "2025-01-31T11:55:19.3056175+07:00"
-        },
-        {
-            "Version": "8.0.4",
-            "Name": "mongodb",
-            "Source": "main",
-            "Info": "",
-            "Updated": "2025-01-04T21:22:29.0652754+07:00"
-        },
-        {
-            "Version": "1.37.0",
-            "Name": "mongodb-atlas-cli",
-            "Source": "main",
-            "Info": "",
-            "Updated": "2025-01-31T15:26:10.2163965+07:00"
-        },
-        {
-            "Version": "1.45.2",
-            "Name": "mongodb-compass",
-            "Source": "extras",
-            "Info": "",
-            "Updated": "2025-02-01T21:46:29.5475135+07:00"
-        },
-        {
-            "Version": "0.10.4",
-            "Name": "neovim",
-            "Source": "main",
-            "Info": "",
-            "Updated": "2025-02-01T21:46:54.5132437+07:00"
-        },
-        {
-            "Version": "1.2.2",
-            "Name": "nvm",
-            "Source": "main",
-            "Info": "",
-            "Updated": "2025-01-31T15:19:12.0616177+07:00"
-        },
-        {
-            "Version": "241211",
-            "Name": "potplayer",
-            "Source": "extras",
-            "Info": "",
-            "Updated": "2025-02-01T20:40:30.606494+07:00"
-        },
-        {
-            "Version": "7.5.0",
-            "Name": "pwsh",
-            "Source": "main",
-            "Info": "",
-            "Updated": "2025-02-01T21:51:25.2401483+07:00"
-        },
-        {
-            "Version": "0.4.29",
-            "Name": "ripcord",
-            "Source": "extras",
-            "Info": "",
-            "Updated": "2025-01-13T22:13:10.4300871+07:00"
-        },
-        {
-            "Version": "14.1.1",
-            "Name": "ripgrep",
-            "Source": "main",
-            "Info": "",
-            "Updated": "2025-01-04T21:23:12.5155133+07:00"
-        },
-        {
-            "Version": "1.27.1",
-            "Name": "rustup-msvc",
-            "Source": "main",
-            "Info": "",
-            "Updated": "2024-08-18T22:59:06.3287196+07:00"
-        },
-        {
-            "Version": "1.22.1",
-            "Name": "starship",
-            "Source": "main",
-            "Info": "",
-            "Updated": "2025-02-01T21:46:58.2314356+07:00"
-        },
-        {
-            "Version": "nightly-20241013",
-            "Name": "steam",
-            "Source": "versions",
-            "Info": "",
-            "Updated": "2024-10-13T20:13:59.1560164+07:00"
-        },
-        {
-            "Version": "0.5.26",
-            "Name": "uv",
-            "Source": "main",
-            "Info": "",
-            "Updated": "2025-02-01T21:47:03.8181587+07:00"
-        },
-        {
-            "Version": "14.42.34433.0",
-            "Name": "vcredist",
-            "Source": "extras",
-            "Info": "",
-            "Updated": "2025-01-04T21:24:05.2999774+07:00"
-        },
-        {
-            "Version": "8.0.50727.6195",
-            "Name": "vcredist2005",
-            "Source": "extras",
-            "Info": "",
-            "Updated": "2024-08-24T20:41:00.9024534+07:00"
-        },
-        {
-            "Version": "9.0.30729.5677",
-            "Name": "vcredist2008",
-            "Source": "extras",
-            "Info": "",
-            "Updated": "2024-08-24T20:41:04.7831063+07:00"
-        },
-        {
-            "Version": "10.0.40219.325",
-            "Name": "vcredist2010",
-            "Source": "extras",
-            "Info": "",
-            "Updated": "2024-08-24T20:41:17.2722332+07:00"
-        },
-        {
-            "Version": "11.0.61030.0",
-            "Name": "vcredist2012",
-            "Source": "extras",
-            "Info": "",
-            "Updated": "2024-08-24T20:41:21.8121675+07:00"
-        },
-        {
-            "Version": "12.0.40664.0",
-            "Name": "vcredist2013",
-            "Source": "extras",
-            "Info": "",
-            "Updated": "2024-08-24T20:41:29.6455571+07:00"
-        },
-        {
-            "Version": "1.5.4",
-            "Name": "vesktop",
-            "Source": "extras",
-            "Info": "",
-            "Updated": "2025-01-13T22:17:49.7950752+07:00"
-        },
-        {
-            "Version": "1.96.4",
-            "Name": "vscode",
-            "Source": "extras",
-            "Info": "",
-            "Updated": "2025-02-01T21:48:29.3339443+07:00"
-        },
-        {
-            "Version": "20240203-110809-5046fc22",
-            "Name": "wezterm",
-            "Source": "extras",
-            "Info": "",
-            "Updated": "2024-08-18T22:32:37.6683031+07:00"
-        },
-        {
-            "Version": "20250201",
-            "Name": "zed-nightly",
-            "Source": "versions",
-            "Info": "",
-            "Updated": "2025-02-01T21:50:08.9572268+07:00"
-        },
-        {
-            "Version": "0.9.6",
-            "Name": "zoxide",
-            "Source": "main",
-            "Info": "",
-            "Updated": "2025-01-04T21:25:18.2334015+07:00"
         }
     ]
 }
