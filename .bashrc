@@ -5,3 +5,6 @@ alias ls='ls --color=auto -X --group-directories-first'
 alias cdf='cd $(fd -L -t d | fzf)'
 
 eval "$(starship init bash)"
+
+. "$HOME/.cargo/env"
+
