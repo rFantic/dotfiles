@@ -73,6 +73,24 @@
   # Configure console keymap
   console.keyMap = "uk";
 
+  #hardware.bluetooth.enable = true; # enables support for Bluetooth
+  hardware.bluetooth = {
+    enable = true;
+    settings = {
+      General = {
+        Name = "Hello";
+        ControllerMode = "dual";
+        FastConnectable = "true";
+        Experimental = "true";
+      };
+      Policy = {
+        AutoEnable = "true";
+      };
+    };
+  };
+  hardware.bluetooth.powerOnBoot = true; # powers up the default Bluetooth controller on boot
+  services.blueman.enable = true;
+
   # Enable CUPS to print documents.
   services.printing.enable = true;
 
@@ -124,20 +142,24 @@
   environment.systemPackages = with pkgs; [
     stow
     zed-editor
+    aider-chat
     neovim
+    gnome-terminal
     zellij
     pomodoro
     lf
     uv
+    python312
     zoxide
     gh
     git
     #wget
+    fzf
+    grc
+    tailscale
   ];
 
-
-
-
+  services.tailscale.enable = true;
   services.syncthing = {
     enable = true;
     openDefaultPorts = true;
