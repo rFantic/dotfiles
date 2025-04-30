@@ -144,12 +144,16 @@
     zed-editor
     aider-chat
     neovim
+    legcord
+    xclip
+    cloudflare-warp
     gnome-terminal
     zellij
     pomodoro
     lf
     uv
     python312
+    starship
     zoxide
     gh
     git
