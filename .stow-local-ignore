@@ -4,3 +4,4 @@
 ^/.*\.fish
 ^/.*\.nix
 wt
+.git
