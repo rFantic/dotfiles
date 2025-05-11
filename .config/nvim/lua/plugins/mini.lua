@@ -9,6 +9,7 @@ return {
             require('mini.sessions').setup({
                 force = {delete = true},
             })
+            require('mini.icons').setup()
         end,
     },
 }

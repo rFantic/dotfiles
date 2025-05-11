@@ -1,0 +1,13 @@
+mouse-scroll-multiplier = 0.5
+window-decoration = false
+maximize = true
+confirm-close-surface = false
+window-padding-x = 8
+window-padding-y = 8
+
+theme = catppuccin-mocha
+font-feature = -liga
+
+macos-titlebar-style = transparent
+shell-integration = fish
+command = fish --login --interactive

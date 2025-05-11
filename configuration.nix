@@ -144,6 +144,7 @@
     zed-editor
     aider-chat
     neovim
+    fish
     legcord
     xclip
     cloudflare-warp
