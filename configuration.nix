@@ -144,11 +144,10 @@
     zed-editor
     aider-chat
     neovim
-    ghostty
     legcord
     xclip
     cloudflare-warp
-    gnome-terminal
+    ghostty
     zellij
     pomodoro
     lf
