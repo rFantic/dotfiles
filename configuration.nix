@@ -131,6 +131,10 @@
   systemd.services."getty@tty1".enable = false;
   systemd.services."autovt@tty1".enable = false;
 
+
+  systemd.packages = [ pkgs.cloudflare-warp ]; # for warp-cli
+  systemd.targets.multi-user.wants = [ "warp-svc.service" ]; # causes warp-svc to be started automatically
+
   # Install firefox.
   programs.firefox.enable = true;
 
@@ -144,6 +148,9 @@
     zed-editor
     aider-chat
     neovim
+    lutris
+    bottles
+    mongodb-compass
     fish
     legcord
     xclip
